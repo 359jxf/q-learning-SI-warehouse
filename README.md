@@ -268,9 +268,9 @@ python warehouse_multi.py
 
 ## 实验结果
 
-<img src="reward_curve1.png" alt="reward_curve1" style="zoom:47%;" /><img src="D:\vscode\Warehouse_Robot_Path_Planning_claude\q-learning-SI-warehouse\reward_curve2.png" alt="reward_curve2" style="zoom:47%;" />
+<img src="reward_curve1.png" alt="reward_curve1" style="zoom:47%;" /><img src="reward_curve2.png" alt="reward_curve2" style="zoom:47%;" />
 
-左为3个货物目标的训练奖励曲线，右为5个货物目标的训练奖励曲线。
+第一张为3个货物目标的训练奖励曲线，第二张为5个货物目标的训练奖励曲线。
 
 可以看到随着货物数量增多，奖励收敛地越慢，但都在1000轮训练中得到快速收敛，稳定在较高值。从演示结果也可以看出机器人在合作获取货物的过程中成功获取了所有货物，动作更加稳定，不会出现堵塞的情况。
 
